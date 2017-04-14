@@ -35,3 +35,4 @@ end
 
 y = y ./ max(max(abs(y)));
 plot(y)
+%soundsc(y,fs); 
