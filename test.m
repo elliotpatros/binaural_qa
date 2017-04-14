@@ -5,20 +5,20 @@ clear all;
 win = 8192;     % samples
 fs = 44100;     % samples/second
 dur = 1;        % second
-L = fs * dur;
 
 %% setup
 hrtfs = audioread('./HRTFs.wav');
 nHrtfs = length(hrtfs) / win;
 
-x = randn(L * nHrtfs, 1);
-y = zeros(length(x), 2);
+L = fs * dur;               
+x = randn(L * nHrtfs, 1);   % input signal (mono)
+y = zeros(length(x), 2);    % output signal (stereo)
 
 filter_state = zeros(win-1, 2);
 
-%% make output
+%% make output (FIR filter hrtf and x)
 for n = 1:nHrtfs
-    % get hrtf
+    % get nth hrtf
     from = (n - 1) * win + 1;
     till = from + win - 1;
     hrtf = hrtfs(from:till, :);
