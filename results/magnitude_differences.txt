@@ -1,0 +1,255 @@
+subject IRC_1002
+	LHS: 27.807609dB.
+	RHS: 29.615527dB.
+	mix: 13.541406dB.
+
+subject IRC_1003
+	LHS: 27.211691dB.
+	RHS: 28.312743dB.
+	mix: 14.163090dB.
+
+subject IRC_1004
+	LHS: 28.253488dB.
+	RHS: 26.543211dB.
+	mix: 13.369764dB.
+
+subject IRC_1005
+	LHS: 26.691698dB.
+	RHS: 25.252142dB.
+	mix: 10.788785dB.
+
+subject IRC_1006
+	LHS: 26.097814dB.
+	RHS: 26.742843dB.
+	mix: 15.031594dB.
+
+subject IRC_1007
+	LHS: 27.987569dB.
+	RHS: 28.548992dB.
+	mix: 12.584345dB.
+
+subject IRC_1008
+	LHS: 26.129736dB.
+	RHS: 25.919078dB.
+	mix: 11.379663dB.
+
+subject IRC_1009
+	LHS: 26.617502dB.
+	RHS: 28.554174dB.
+	mix: 14.477879dB.
+
+subject IRC_1012
+	LHS: 26.184368dB.
+	RHS: 27.994529dB.
+	mix: 13.784173dB.
+
+subject IRC_1013
+	LHS: 26.568721dB.
+	RHS: 27.492553dB.
+	mix: 14.268443dB.
+
+subject IRC_1014
+	LHS: 27.411974dB.
+	RHS: 27.389196dB.
+	mix: 15.099379dB.
+
+subject IRC_1015
+	LHS: 26.643820dB.
+	RHS: 25.452356dB.
+	mix: 11.547255dB.
+
+subject IRC_1016
+	LHS: 26.092903dB.
+	RHS: 26.257856dB.
+	mix: 9.906522dB.
+
+subject IRC_1017
+	LHS: 28.376261dB.
+	RHS: 29.966432dB.
+	mix: 13.180742dB.
+
+subject IRC_1018
+	LHS: 28.652770dB.
+	RHS: 30.248338dB.
+	mix: 12.067228dB.
+
+subject IRC_1020
+	LHS: 28.038401dB.
+	RHS: 27.602281dB.
+	mix: 12.885711dB.
+
+subject IRC_1021
+	LHS: 27.812755dB.
+	RHS: 28.125721dB.
+	mix: 13.246141dB.
+
+subject IRC_1022
+	LHS: 28.194247dB.
+	RHS: 27.735539dB.
+	mix: 14.291915dB.
+
+subject IRC_1023
+	LHS: 27.380372dB.
+	RHS: 26.678206dB.
+	mix: 9.682993dB.
+
+subject IRC_1025
+	LHS: 26.134587dB.
+	RHS: 26.795841dB.
+	mix: 11.893628dB.
+
+subject IRC_1026
+	LHS: 27.937950dB.
+	RHS: 25.972339dB.
+	mix: 11.004990dB.
+
+subject IRC_1028
+	LHS: 27.119323dB.
+	RHS: 27.024741dB.
+	mix: 14.738236dB.
+
+subject IRC_1029
+	LHS: 27.662131dB.
+	RHS: 27.568743dB.
+	mix: 13.012860dB.
+
+subject IRC_1030
+	LHS: 29.615357dB.
+	RHS: 28.252126dB.
+	mix: 12.348434dB.
+
+subject IRC_1031
+	LHS: 26.635626dB.
+	RHS: 27.341480dB.
+	mix: 14.992540dB.
+
+subject IRC_1032
+	LHS: 26.771615dB.
+	RHS: 27.819300dB.
+	mix: 13.533777dB.
+
+subject IRC_1033
+	LHS: 27.122908dB.
+	RHS: 27.145436dB.
+	mix: 13.474538dB.
+
+subject IRC_1034
+	LHS: 51.663217dB.
+	RHS: 49.803485dB.
+	mix: 45.176056dB.
+
+subject IRC_1037
+	LHS: 30.574552dB.
+	RHS: 28.403187dB.
+	mix: 15.312015dB.
+
+subject IRC_1038
+	LHS: 30.036681dB.
+	RHS: 28.007217dB.
+	mix: 15.341657dB.
+
+subject IRC_1039
+	LHS: 25.535617dB.
+	RHS: 26.576929dB.
+	mix: 12.381156dB.
+
+subject IRC_1040
+	LHS: 28.729515dB.
+	RHS: 30.317522dB.
+	mix: 16.694935dB.
+
+subject IRC_1041
+	LHS: 29.488537dB.
+	RHS: 29.399667dB.
+	mix: 13.120582dB.
+
+subject IRC_1042
+	LHS: 27.266913dB.
+	RHS: 27.693834dB.
+	mix: 11.951809dB.
+
+subject IRC_1043
+	LHS: 27.468014dB.
+	RHS: 27.793244dB.
+	mix: 13.200500dB.
+
+subject IRC_1044
+	LHS: 28.663457dB.
+	RHS: 27.853096dB.
+	mix: 13.326070dB.
+
+subject IRC_1045
+	LHS: 27.734830dB.
+	RHS: 25.663989dB.
+	mix: 11.031710dB.
+
+subject IRC_1046
+	LHS: 26.441630dB.
+	RHS: 26.314921dB.
+	mix: 14.432589dB.
+
+subject IRC_1047
+	LHS: 29.186984dB.
+	RHS: 28.692616dB.
+	mix: 13.451780dB.
+
+subject IRC_1048
+	LHS: 27.604377dB.
+	RHS: 27.636530dB.
+	mix: 12.893728dB.
+
+subject IRC_1049
+	LHS: 27.070672dB.
+	RHS: 28.623687dB.
+	mix: 13.709718dB.
+
+subject IRC_1050
+	LHS: 27.430532dB.
+	RHS: 27.040191dB.
+	mix: 13.293685dB.
+
+subject IRC_1051
+	LHS: 27.519112dB.
+	RHS: 25.226204dB.
+	mix: 12.030315dB.
+
+subject IRC_1052
+	LHS: 25.216596dB.
+	RHS: 24.950024dB.
+	mix: 10.612244dB.
+
+subject IRC_1053
+	LHS: 28.372799dB.
+	RHS: 26.795403dB.
+	mix: 12.496384dB.
+
+subject IRC_1054
+	LHS: 25.946892dB.
+	RHS: 25.380542dB.
+	mix: 12.640157dB.
+
+subject IRC_1055
+	LHS: 29.411986dB.
+	RHS: 27.599121dB.
+	mix: 18.050964dB.
+
+subject IRC_1056
+	LHS: 26.417986dB.
+	RHS: 26.574948dB.
+	mix: 10.994003dB.
+
+subject IRC_1057
+	LHS: 27.064582dB.
+	RHS: 30.577902dB.
+	mix: 16.424957dB.
+
+subject IRC_1058
+	LHS: 25.697594dB.
+	RHS: 25.031030dB.
+	mix: 12.765331dB.
+
+subject IRC_1059
+	LHS: 29.154264dB.
+	RHS: 29.817601dB.
+	mix: 12.502494dB.
+
