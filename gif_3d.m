@@ -41,8 +41,6 @@ filename = 'test.gif';
 nSteps = 300;
 viewangles = [linspace(-15, 345, nSteps)', linspace(30, 30, nSteps)'];
 for n = 1:nSteps
-    x = 0:0.01:1;
-    
     view(viewangles(n,:));
     frame = getframe(1);
     im = frame2im(frame);

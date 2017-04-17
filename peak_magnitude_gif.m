@@ -2,7 +2,7 @@ clear all;
 
 %% user parameters
 HRTFs_folder = './HRTFs/';
-show_dB = false;
+show_dB = true;
 
 %% get all hrtfs
 directory = dir('./HRTFs/');
@@ -40,8 +40,8 @@ for s = 1:nSubjects
         
         % convert to dB
         if (show_dB)
-            lmag = 100 + mag2db(lmag);
-            rmag = 100 + mag2db(rmag);
+            lmag = 50 + mag2db(lmag);
+            rmag = 50 + mag2db(rmag);
         end
 
         % plot it
@@ -67,7 +67,6 @@ viewangles = [linspace(-15, 345, nSteps)', linspace(30, 30, nSteps)'];
 for n = 1:nSteps
     clc;
     disp(['recording frame ', num2str(n), ' of ', num2str(nSteps)]);
-    x = 0:0.01:1;
     
     view(viewangles(n,:));
     frame = getframe(1);

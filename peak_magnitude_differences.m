@@ -16,7 +16,7 @@ for s = 1:length(subs)
                'COMPENSATED/MAT/HRIR', '/', subs(s).name, '_C_HRIR.mat'];
     load(matfile)
     
-	% get ready to store loudest and quietest hrtfs
+    % get ready to store loudest and quietest hrtfs
     lloudest  = 0;      % subject s' loudest peak magnitude (left)
     lloudesti = 0;      % index of subject s' loudest peak magnitude (left)
     lsoftest  = 100;    % subject s' softest peak magnitude (left)
@@ -45,43 +45,43 @@ for s = 1:length(subs)
         mmag = lmag + rmag;
         
         
-		% check if this is the loudest
-		if lmag > lloudest
-			lloudest = lmag;
+        % check if this is the loudest
+        if lmag > lloudest
+            lloudest = lmag;
             lloudesti = n;
         end
-		if rmag > rloudest
-			rloudest = rmag;
+        if rmag > rloudest
+            rloudest = rmag;
             rloudesti = n;
         end
         if mmag > mloudest
-			mloudest = mmag;
+            mloudest = mmag;
             mloudesti = n;
         end
 
-		% check if this is the softest
-		if lmag < lsoftest
-			lsoftest = lmag;
+        % check if this is the softest
+        if lmag < lsoftest
+            lsoftest = lmag;
             lsoftesti = n;
         end
-		if rmag < rsoftest
-			rsoftest = rmag;
+        if rmag < rsoftest
+            rsoftest = rmag;
             rsoftesti = n;
         end
         if mmag < msoftest
-			msoftest = mmag;
+            msoftest = mmag;
             msoftesti = n;
         end
 
     end
 
-	% get the max difference between respective hrtfs
-	ldiff = mag2db(lloudest) - mag2db(lsoftest);
-	rdiff = mag2db(rloudest) - mag2db(rsoftest);
+    % get the max difference between respective hrtfs
+    ldiff = mag2db(lloudest) - mag2db(lsoftest);
+    rdiff = mag2db(rloudest) - mag2db(rsoftest);
     mdiff = mag2db(mloudest) - mag2db(msoftest);
 
-	% write results to text file
-	fprintf(fileID, 'subject %s\n\tLHS: %fdB.\n\tRHS: %fdB.\n\tmix: %fdB.\n\n', subs(s).name, ldiff, rdiff, mdiff);
+    % write results to text file
+    fprintf(fileID, 'subject %s\n\tLHS: %fdB.\n\tRHS: %fdB.\n\tmix: %fdB.\n\n', subs(s).name, ldiff, rdiff, mdiff);
 end
 
 fclose(fileID);
