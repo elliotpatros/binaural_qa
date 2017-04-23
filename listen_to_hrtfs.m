@@ -7,8 +7,8 @@ fs = 44100;     % samples/second
 dur = 1;        % second
 
 %% setup
-hrtfs = audioread('./HRTFs.wav');
-nHrtfs = length(hrtfs) / win;
+hrtfs = audioread('./GAN/17_04_13_05_hrir_dim8_large_ac/1.wav'); % audioread('./HRTFs.wav');
+nHrtfs = 24; %  length(hrtfs) / win;
 
 L = fs * dur;               
 x = randn(L * nHrtfs, 1);   % input signal (mono)
